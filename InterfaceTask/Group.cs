@@ -9,22 +9,23 @@ using System.Threading.Tasks;
 
 namespace InterfaceTask
 {
-    internal class Group : Student
+    internal class Group 
     {
         public static Group[] groups = new Group[0];
         static int GroupCount = 0;
-        public int GroupId { get; set; } 
-        public string GroupName { get; set; }
+        public int GroupId { get; set; }
+        public string GroupName { get; set ; }
         public Student[] students = new Student[0];
         public Group(string groupname)
         {
             GroupName = groupname;
             GroupId = ++ GroupCount;
+            AddGruop(this);
         }
 
         public void GetGroupInfo()
         {
-            Console.WriteLine($"GroupId:{GroupId},Gruop Name:{GroupName},The Number of ");
+            Console.WriteLine($"GroupId:{GroupId},Gruop Name:{GroupName},The Number of students{students.Length} ");
 
         }
         public string GetStudentId(int id)
@@ -34,7 +35,7 @@ namespace InterfaceTask
                 if (students[i]!=null && id == students[i].Id)
                 {
 
-                    return $"{Name} {Surname}";
+                    return $"{students[i].Name} {students[i].Surname}";
                 }
                 
             }return null;
@@ -49,9 +50,12 @@ namespace InterfaceTask
 
         public void Search(string name)
         {
-            if (name == Name || name == Surname)
+            for (int i = 0; i < students.Length; i++)
             {
-                Console.WriteLine($"{Name} {Surname} {Id} {CodeEmail}");
+                if (name == students[i].Name || name ==students[i]. Surname)
+                {
+                    Console.WriteLine($"{students[i].Name} {students[i].Surname} {students[i].Id} {students[i].CodeEmail}");
+                }
             }
         }
 
@@ -73,16 +77,17 @@ namespace InterfaceTask
             for (int i = 0; i < students.Length; i++)
             {
 
-                Console.WriteLine(students[i].Name);
+                Console.WriteLine(students[i].Name + " "+students[i].Surname);
             }
 
         }
 
         public static void ShowAllGroups()
         {
-            for (int i = 0; groups.Length > i; i++)
+            for (int i = 0; i<groups.Length; i++)
             {
-                Console.WriteLine(groups[i].GroupId + groups[i].GroupName + groups[i].students);
+                Console.WriteLine(groups[i].GroupId +" "+ groups[i].GroupName );
+                groups[i].ShowStudents();
             }
         }
 
@@ -98,7 +103,7 @@ namespace InterfaceTask
             int j = 0;
             for (int i = 0; i < groups.Length; i++)
             {
-                if (groups[i].Name != group)
+                if (groups[i].students[i].Name != group)
                 {
                     newarr2[j] = groups[i];
                 }

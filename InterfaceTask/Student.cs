@@ -22,7 +22,7 @@ namespace InterfaceTask
         }
         public static string Capitalize(string name, string surname)
         {
-            return name.Trim().Substring(0, 1).ToUpper() + name.Substring(1).ToLower() + surname.Trim().Substring(0, 1).ToUpper() + surname.Substring(1).ToLower();
+            return name.Trim().Substring(0, 1).ToUpper() + name.Substring(1).ToLower() +" "+ surname.Trim().Substring(0, 1).ToUpper() + surname.Substring(1).ToLower();
         }
         public static bool CheckName(string name)
         {

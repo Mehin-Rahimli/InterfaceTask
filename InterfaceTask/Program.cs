@@ -6,27 +6,26 @@
         {
             
             
-            Student student1 = new Student("mEhin","RaHimLI");
-            Student student2 = new Student("salam", "salamov");
-            Student student3 = new Student("Bob", "gilbert");
-            Student student4 = new Student("ilham", "eliyev");
+            Student student1 = new Student("Mehin","Rahimli");
+            Student student2 = new Student("Salam", "Salamov");
+            Student student3 = new Student("Bob", "Gilbert");
+            Student student4 = new Student("Ilham", "Zamanov");
             Group groupA = new Group("Group A");
             groupA.AddStudent(student1);
             groupA.AddStudent(student2);
             groupA.AddStudent(student3);
             groupA.AddStudent(student4);
 
-            Student student5 = new Student("xanim", "muradli");
-            Student student6 = new Student("mehriban", "israfilova");
-            Student student7= new Student("fatime", "isayeva");
-            Student student8 = new Student("tuncay", "muradli");
+            Student student5 = new Student("Xanim", "Muradli");
+            Student student6 = new Student("Damon", "Salvatore");
+            Student student7= new Student("Fatime", "Isayeva");
+            Student student8 = new Student("Tuncay", "Muradli");
             Group groupB = new Group("Group B");
             groupB.AddStudent(student5);
             groupB.AddStudent(student6);
             groupB.AddStudent(student7);
             groupB.AddStudent(student8);
-
-
+           
 
             Group.ShowAllGroups();
         }

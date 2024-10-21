@@ -3,3 +3,13 @@ C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Deb
 C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\InterfaceTask.AssemblyInfo.cs
 C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\InterfaceTask.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\InterfaceTask.sourcelink.json
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\bin\Debug\net6.0\InterfaceTask.exe
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\bin\Debug\net6.0\InterfaceTask.deps.json
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\bin\Debug\net6.0\InterfaceTask.runtimeconfig.json
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\bin\Debug\net6.0\InterfaceTask.dll
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\bin\Debug\net6.0\InterfaceTask.pdb
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\InterfaceTask.dll
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\refint\InterfaceTask.dll
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\InterfaceTask.pdb
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\InterfaceTask.genruntimeconfig.cache
+C:\Users\User\OneDrive\Desktop\SecondProject\InterfaceTask\InterfaceTask\obj\Debug\net6.0\ref\InterfaceTask.dll
